@@ -1,9 +1,9 @@
 public class ListNode {
 
-        private Object data;
+        private int data;
         private ListNode nextNode;
 
-        public ListNode(Object data, ListNode nextNode) {
+        public ListNode(int data, ListNode nextNode) {
             setData(data);
             setNextNode( nextNode);
         }
@@ -12,11 +12,11 @@ public class ListNode {
             this.nextNode = nextNode;
         }
 
-        public void setData(Object data) {
+        public void setData(int data) {
             this.data = data;
         }
 
-        public Object getData(){
+        public int getData(){
             return  this.data;
         }
 
